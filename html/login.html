@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/login.css">
+</head>
+<body>
+    <div class="container">
+        <h2><img src="../image/3468 logo mashoes-01 (3).png" alt="" width="100" height="100">Mashoes</h2>
+        <form action="" id="loginForm">
+            <input type="text" placeholder="Please Enter Your Username" id="username">
+            <input type="text" placeholder="Please Enter Your Email" id="email">
+            <input type="text" placeholder="Please Enter Your Password" id="password">
+            <button id="submit-button">Submit</button>
+            <a href="./register.html">Chưa có tài khoản?</a>
+            <div class="line">
+                <span></span>
+                <p>Or</p>
+                <span></span>
+            </div>
+            <button class="facebook">
+                <ion-icon name="logo-facebook"></ion-icon>
+                Facebook
+            </button>
+            <button class="google">
+                <ion-icon name="logo-google"></ion-icon>
+                Google
+            </button>
+        </form>
+        <a href="./main.html" class="back"><ion-icon name="arrow-back-circle-outline"></ion-icon></a>
+    </div>
+
+
+
+            <!-- Firebase -->
+    <script src="https://www.gstatic.com/firebasejs/10.13.2/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.13.2/firebase-firestore-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.13.2/firebase-storage-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.13.2/firebase-auth-compat.js"></script>
+
+        <!-- Realtime Database -->
+    <script src="https://www.gstatic.com/firebasejs/10.13.2/firebase-database-compat.js"></script>
+    <script src="../js/firebase_config.js"></script>
+
+    <script src="../js/login.js"></script>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

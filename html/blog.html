@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/blog.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="./main.html">
+                <img src="../image/3468 logo mashoes-01 (3).png" alt="" width="50" height="50">
+                Mashoes
+            </a>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./main.html">Trang Chủ</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Sản Phẩm
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Dép Đế Xuồng</a></li>
+                            <li><a class="dropdown-item" href="#">Cao Gót 5P - 9P</a></li>
+                            <li><a class="dropdown-item" href="#">Dép Kẹp</a></li>
+                            <li><a class="dropdown-item" href="#">Dép Đế Bệt</a></li>
+                            <li><a class="dropdown-item" href="#">Dép Gót Thấp 1P - 3P</a></li>
+                            <li><a class="dropdown-item" href="#">Sục Lưới Nữ</a></li>
+                            <li><a class="dropdown-item" href="#">Sandal Đế Bệt 1P - 3P</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./blog.html">About</a>
+                    </li>
+                </ul>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <ion-icon name="grid-outline" style="font-size: 40px;"></ion-icon>
+            </button>
+            <div class="nav-icon-container">
+                <div class="search-container">
+                    <ion-icon name="search-outline" style="font-size: 30px;" class="search-icon"></ion-icon>
+                    <input type="text" placeholder="Search" class="search-bar">
+                </div>
+                <div class="log-container">
+                    <ion-icon name="person-outline" style="font-size: 30px; margin-left: 10px; margin-right: 10px;" class="log-icon"></ion-icon>
+                    <div class="log-wrapper">
+                        <a href="./login.html">Login</a>
+                        <a href="./register.html">Register</a>
+                    </div>
+                </div>
+                <ion-icon name="cart-outline" style="font-size: 30px; margin-right: 10px;"></ion-icon>
+            </div>
+        </div>
+    </nav>
+    
+    <h1 style="text-align: center; margin-top: 30px;">Tin tức</h1>
+    <div id="news-container">
+    </div>
+
+    <footer>
+        <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapse0" aria-controls="collapseExample" style="border-radius: 0; background-color: rgb(0, 0, 0, 0.8); color: white; width: 100%; font-family: Arial, Helvetica, sans-serif; font-size: 20px; box-shadow: 0 0 5px white; display: flex; align-items: center; justify-content: center;">
+            <ion-icon name="arrow-down-circle-outline"></ion-icon>
+            Kết Nối Với Chúng Tôi
+        </button>
+        <div class="collapse" id="collapse0">
+            <div class="card card-body"  style="background-color: rgb(0, 0, 0, 0.8); border-radius: 0; display: flex; flex-direction: row; gap: 5px; font-size: 40px;justify-content: center;">
+                <ion-icon class="facebook" name="logo-facebook"></ion-icon>
+                <ion-icon class="instagram" name="logo-instagram"></ion-icon>
+                <ion-icon class="google" name="logo-google"></ion-icon>
+                <ion-icon class="youtube" name="logo-youtube"></ion-icon>
+                <ion-icon class="tiktok" name="logo-tiktok"></ion-icon>
+            </div>
+        </div>
+
+        <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-controls="collapseExample" style="border-radius: 0; background-color: rgb(0, 0, 0, 0.8); color: white; width: 100%; font-family: Arial, Helvetica, sans-serif; font-size: 20px; box-shadow: 0 0 5px white; display: flex; align-items: center; justify-content: center;">
+            <ion-icon name="arrow-down-circle-outline"></ion-icon>
+            Về Ma.Shoes
+        </button>
+        <div class="collapse" id="collapse1">
+            <div class="card card-body"  style="background-color: rgb(0, 0, 0, 0.8); border-radius: 0;">
+                <p>Hộ kinh doanh Vũ Giày Dép GPKD số 41D8006370 cấp ngày 18/11/2011 tại Sở Kế hoạch và Đầu tư Thành phố Hồ Chí Minh. Xưởng Giày chuyên cung cấp và sản xuất các loại giày dép</p>
+                <div class="location">
+                    <ion-icon name="location-outline"></ion-icon>
+                    <p> 266/108/47 Tôn Đản, Phường 8, Quận 4, TPHCM</p>
+                </div>
+                <div class="phone">
+                    <ion-icon name="call-outline"></ion-icon>
+                    <p> 0769760926</p>
+                </div>
+            </div>
+        </div>
+
+        <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-controls="collapseExample" style="border-radius: 0; background-color: rgb(0, 0, 0, 0.8); color: white; width: 100%; font-family: Arial, Helvetica, sans-serif; font-size: 20px; box-shadow: 0 0 5px white; display: flex; align-items: center; justify-content: center;">
+            <ion-icon name="arrow-down-circle-outline"></ion-icon>
+            Hỗ Trợ Khách Hàng
+        </button>
+        <div class="collapse" id="collapse2">
+            <div class="card card-body"  style="background-color: rgb(0, 0, 0, 0.8); border-radius: 0;">
+                <ul style="padding: 0; margin: 0; color: aliceblue; display: block; width: fit-content;align-self: center;" >
+                    <li>Sản Phẩm Khuyến Mãi</li>
+                    <li>Sản Phẩm Nổi Bật</li>
+                    <li>Tất Cả Sản Phẩm</li>
+                </ul>
+            </div>
+        </div>
+
+        <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-controls="collapseExample" style="border-radius: 0; background-color: rgb(0, 0, 0, 0.8); color: white; width: 100%; font-family: Arial, Helvetica, sans-serif; font-size: 20px; box-shadow: 0 0 5px white; display: flex; align-items: center; justify-content: center;">
+            <ion-icon name="arrow-down-circle-outline"></ion-icon>
+            Link
+        </button>
+        <div class="collapse" id="collapse3">
+            <div class="card card-body"  style="background-color: rgb(0, 0, 0, 0.8); border-radius: 0;">
+                <ul style="padding: 0; margin: 0; color: aliceblue; display: block; width: fit-content;align-self: center;" >
+                    <li>Trang Chủ</li>
+                    <li>Sản Phẩm</li>
+                    <li>Blog</li>
+                    <li>About</li>
+                </ul>
+            </div>
+        </div>
+
+        <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-controls="collapseExample" style="border-radius: 0; background-color: rgb(0, 0, 0, 0.8); color: white; width: 100%; font-family: Arial, Helvetica, sans-serif; font-size: 20px; box-shadow: 0 0 5px white; display: flex; align-items: center; justify-content: center;">
+            <ion-icon name="arrow-down-circle-outline"></ion-icon>
+            Chính Sách
+        </button>
+        <div class="collapse" id="collapse4">
+            <div class="card card-body"  style="background-color: rgb(0, 0, 0, 0.8); border-radius: 0;">
+                <ul style="padding: 0; margin: 0; color: aliceblue; display: block; width: fit-content;align-self: center;" >
+                    <li>Chính Sách Đổi Trả</li>
+                    <li>Chính Sách Bảo Mật</li>
+                    <li>Chính Sách Kiểm Hàng</li>
+                    <li>Chính Sách Vận Chuyển</li>
+                    <li>Hình Thức Thanh Toán</li>
+                </ul>
+            </div>
+        </div>
+
+        <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-controls="collapseExample" style="border-radius: 0; background-color: rgb(0, 0, 0, 0.8); color: white; width: 100%; font-family: Arial, Helvetica, sans-serif; font-size: 20px; box-shadow: 0 0 5px white; display: flex; align-items: center; justify-content: center;">
+            <ion-icon name="arrow-down-circle-outline"></ion-icon>
+            Phương Thức Vận Chuyển
+        </button>
+        <div class="collapse" id="collapse5">
+            <div class="card card-body"  style="background-color: rgb(0, 0, 0, 0.8); border-radius: 0;">
+                <ul style="padding: 0; margin: 0; display:flex; width: fit-content;align-self: center; list-style: none; gap: 5px;" >
+                    <li><img src="//theme.hstatic.net/200001012335/1001361953/14/shipment_1_img.png?v=116" alt="ghn"></li>
+                    <li><img src="//theme.hstatic.net/200001012335/1001361953/14/shipment_2_img.png?v=116" alt="ninjavan"></li>
+                    <li><img src="//theme.hstatic.net/200001012335/1001361953/14/shipment_3_img.png?v=116" alt="ahamove"></li>
+                    <li><img src="//theme.hstatic.net/200001012335/1001361953/14/shipment_4_img.png?v=116" alt="j&t"></li>
+                </ul>
+            </div>
+        </div>
+
+        <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapse6" aria-controls="collapseExample" style="border-radius: 0; background-color: rgb(0, 0, 0, 0.8); color: white; width: 100%; font-family: Arial, Helvetica, sans-serif; font-size: 20px; box-shadow: 0 0 5px white; display: flex; align-items: center; justify-content: center;">
+            <ion-icon name="arrow-down-circle-outline"></ion-icon>
+            Phương Thức Thanh Toán
+        </button>
+        <div class="collapse" id="collapse6">
+            <div class="card card-body"  style="background-color: rgb(0, 0, 0, 0.8); border-radius: 0;">
+                <ul style="padding: 0; margin: 0; width: fit-content;align-self: center; display: block; color: aliceblue;" >
+                    <li>Ngân Hàng</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <!-- Firebase -->
+            <script src="https://www.gstatic.com/firebasejs/10.13.2/firebase-app-compat.js"></script>
+            <script src="https://www.gstatic.com/firebasejs/10.13.2/firebase-firestore-compat.js"></script>
+            <script src="https://www.gstatic.com/firebasejs/10.13.2/firebase-storage-compat.js"></script>
+            <script src="https://www.gstatic.com/firebasejs/10.13.2/firebase-auth-compat.js"></script>
+        
+            <!-- Realtime Database -->
+            <script src="https://www.gstatic.com/firebasejs/10.13.2/firebase-database-compat.js"></script>
+            <script src="../js/firebase_config.js"></script>
+            <script src="../js/blog.js"></script>
+
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+            <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+            <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
