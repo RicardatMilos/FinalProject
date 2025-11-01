@@ -25,3 +25,75 @@
     transform: scale(1.05);
     transition: all 0.3s ease;
 }
+
+.add-product-title{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 50px;
+}
+
+.add-product-title h1{
+    margin: 0;
+}
+
+.add-product-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: blue;
+    color: white;
+    font-weight: 600;
+    border: 0;
+    margin-right: 100px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.add-product-button:hover {
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
+
+.add-product-button ion-icon{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+
+
+table{
+    width: 90%;
+    align-self: center;
+    border: 1px black solid;
+}
+
+tr{
+    color: gray;
+}
+
+td{
+    color: black;
+}
+
+th{
+    font-size: 20px;
+    padding: 10px;
+}
+
+.product-image, .product-storage, .product-prize{
+    width: 10%;
+}
+.product-name{
+    width: 50%;
+}
+.action{
+    width: 20%;
+}
+
+.add-product-form button:hover{
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
+

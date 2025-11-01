@@ -26,10 +26,45 @@
                 <li><a href="">Nhóm Sản Phẩm</a></li>
             </ul>
         </div>
+        <div style="width: 100%; display: flex; justify-content: center; flex-direction: column; align-self: first baseline;">
+            <div class="add-product-title">
+                <h1>Danh Sách Sản Phẩm</h1>
+                <button class="add-product-button" id="add-product-button"><ion-icon name="add-circle-outline"></ion-icon>  Thêm Sản Phẩm</button>
+            </div>
+            <table id="table">
+                <tr style="width: 100%; background-color: green; color: white;">
+                    <th class="product-image">Ảnh</th>
+                    <th class="product-class">Tên Sản Phẩm</th>
+                    <th class="product-storage">Tồn Kho</th>
+                    <th class="product-price">Giá</th>
+                    <th class="action">Thao Tác</th>
+                </tr>
+            </table>
+        </div>
     </div>
 
-
-ưtdftsdtsdgydsydg
+    <div class="add-product-form" id="add-product-form" style="background-color: rgb(0, 0, 0, 0.5); width: 100%; height: 100%; position: fixed;top: 0; display: none; justify-content: center; align-items: center;">
+        <div style="background-color: white; padding: 20px;">
+            <h1 style="margin: 0 0 20px 0">Thêm Sản Phẩm</h1>
+            <form action="" style="display: flex; flex-direction: column; gap: 20px;">
+                <input type="text" placeholder="Tên Sản Phẩm" style="width: 500px;" id="product-name-input">
+                <div style="display: flex; gap: 20px;">
+                    <input type="text" placeholder="Số lượng" id="product-storage-input">
+                    <div style="position: relative;">
+                        <input type="text" placeholder="Giá Sản Phẩm" id="product-price-input">
+                        <p style="position: absolute; top: 50%;right: 5px; margin: 0; transform: translate(-50%,-50%);">đ</p>
+                    </div>
+                </div>
+                <div style="display: flex; gap: 20px; align-items: center;">
+                    <input type="file" required id="product-image-input">
+                </div>
+                <div style="display: flex; justify-content: flex-end;">
+                    <button class="cancel-button" id="cancel-button" style="width: 100px; color: white; background-color: red; border: 0; border-radius: 5px; font-size: 20px; margin: 10px;" >Hủy</button>
+                    <button class="submit-button" id="submit-button" style="width: 100px; color: white; background-color: blue; border: 0; border-radius: 5px; font-size: 20px; margin: 10px;">Xong</button>
+                </div>
+            </form>
+        </div>
+    </div>
 
 
 
@@ -46,7 +81,7 @@
     <!-- Realtime Database -->
     <script src="https://www.gstatic.com/firebasejs/10.13.2/firebase-database-compat.js"></script>
     <script src="../js/firebase_config.js"></script>
-    <script src="../js/main.js"></script>
+    <script src="../js/admin.js"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
