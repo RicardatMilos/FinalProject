@@ -37,11 +37,12 @@ function handleRegister(e){
                 balance: 0,
             }
 
-            db.collection("users").add(userData)
+            db.collection("users").doc(user.uid).set(userData)
                 .then((docref) => {
                     alert("Đăng Ký Thành Công");
                     window.location.href = "login.html"
                     console.log(docref.id)
+                    return;
                 })
 
                 .catch((error) => {
