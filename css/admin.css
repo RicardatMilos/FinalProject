@@ -67,6 +67,7 @@ table{
     width: 90%;
     align-self: center;
     border: 1px black solid;
+    margin-bottom: 100px;
 }
 
 tr{
