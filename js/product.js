@@ -1,4 +1,4 @@
-let container = document.getElementById('new-product-container')
+let container = document.getElementById('product-container')
 let paymentContainer = document.getElementById('payment-container')
 let backButton = document.getElementById('back-button')
 let paymentSubmit = document.getElementById('payment-submit')
